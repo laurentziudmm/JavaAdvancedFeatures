@@ -5,8 +5,8 @@ public class Main {
     public static void main(String[] args) {
 
         Student student = new Student("Andrei",9);
-        Trainer trainer = new Trainer("Marius",8765);
-        Person person = new Person("ALex");
+        Trainer trainer = new Trainer("Marius",8.5F);
+        Person person = new Person("Alex");
 
         trainer.growRating();
 
@@ -18,6 +18,9 @@ public class Main {
         trainer.walk();
         student.walk();
 
+        System.out.println(person.toString());
+        System.out.println(trainer.toString());
+        System.out.println(student.toString());
 
     }
 }

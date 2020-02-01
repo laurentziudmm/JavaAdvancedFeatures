@@ -16,4 +16,9 @@ public class Student extends Person{
     public void walk(){
         System.out.println("Student " + getName() + " is walking!");
     }
+
+    @Override
+    public String toString () {
+        return "Name " + getName() + " Grade: " + grade;
+    }
 }

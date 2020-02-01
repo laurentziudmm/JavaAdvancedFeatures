@@ -2,13 +2,13 @@ package inheritance;
 
 public class Trainer extends  Person {
 
-    private int rating;
+    private float rating;
 
-    public int getRating() {
+    public float getRating() {
         return rating;
     }
 
-    public Trainer(String name, int rating) {
+    public Trainer(String name, float rating) {
         super(name);
         this.rating = rating;
     }
@@ -20,6 +20,11 @@ public class Trainer extends  Person {
     @Override
     public void walk(){
         System.out.println("Trainer " + getName() + " is walking!");
+    }
+
+    @Override
+    public String toString () {
+        return "Name " + getName() + " Rating: " + rating;
     }
 
 
