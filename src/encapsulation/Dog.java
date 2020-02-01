@@ -8,18 +8,12 @@ public class Dog {
     private String race;
     private int weight;
 
-    public Dog (String name , int age, String gender , String race , int weight) {
-
-        this.name = name;
-        this.age = age;
-        this.gender = gender;
-        this.race = race;
-        this.weight = weight;
-    }
-
-    public Dog (String gender , String race ){
-
-        this("Azorel",0,gender,race,1);
+    public void setAge(int age) {
+        if (age <= 0) {
+            System.out.println("Age must be greater then 0:");
+        } else {
+            this.age = age;
+        }
     }
 
     public int getAge() {
@@ -30,12 +24,36 @@ public class Dog {
         return weight;
     }
 
-    public void print (){
+    public void setWeight(int weight) {
+        if (weight <= 0) {
+            System.out.println("Weight has to be greater then 0!");
+        } else {
 
-        System.out.println( name + " Age: " +  age  +  " Gender: " + gender + " Race: " + race  + " Weight: " + weight);
+            this.weight = weight;
+        }
     }
 
-    public void setName (String newName) {
+    public Dog(String name, int age, String gender, String race, int weight) {
+
+        this.name = name;
+        this.age = age;
+        this.gender = gender;
+        this.race = race;
+        this.weight = weight;
+    }
+
+    public Dog(String gender, String race) {
+
+        this("Azorel", 0, gender, race, 1);
+    }
+
+
+    public void print() {
+
+        System.out.println(name + " Age: " + age + " Gender: " + gender + " Race: " + race + " Weight: " + weight);
+    }
+
+    public void setName(String newName) {
 
         this.name = newName;
     }
