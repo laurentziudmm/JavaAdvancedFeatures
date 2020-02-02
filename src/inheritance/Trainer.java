@@ -24,7 +24,7 @@ public class Trainer extends  Person {
 
     @Override
     public String toString () {
-        return "Name " + getName() + " Rating: " + rating;
+        return "Trainer -> " + super.toString() +  " Rating: " + rating;
     }
 
 
