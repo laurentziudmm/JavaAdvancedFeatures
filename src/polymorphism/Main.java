@@ -23,7 +23,10 @@ public class Main {
 //        Shape[] shapes = automaticGeneration(100);
 
         for (int i = 0; i < shapes.length; i++) {
-            System.out.println(shapes[i].toString());
+//            System.out.println(shapes[i].toString());
+            System.out.println(shapes[i].toString() + " Area is: " + shapes[i].calculateArea() +
+                    " Perimeter is: " + shapes[i].calculatePerimeter());
+
         }
 
 

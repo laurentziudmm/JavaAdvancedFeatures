@@ -14,4 +14,13 @@ public class Triangle extends Shape{
         return "Height is: " + heigth + " and base is: " + base;
     }
 
+    @Override
+    public double calculateArea() {
+        return (heigth*base)/2;
+    }
+
+    @Override
+    public double calculatePerimeter() {
+        return heigth + base;
+    }
 }

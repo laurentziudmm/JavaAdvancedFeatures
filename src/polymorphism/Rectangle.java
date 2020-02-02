@@ -1,22 +1,31 @@
 package polymorphism;
 
-public class Rectangle extends Shape{
+public class Rectangle extends Shape {
 
-    private  double length;
-    private  double width;
+    private double length;
+    private double width;
 
-    public Rectangle (double length, double width) {
+    public Rectangle(double length, double width) {
         this.length = length;
         this.width = width;
     }
 
 
     @Override
-    public  String toString () {
+    public String toString() {
         return "Length is:  " + length + " and width is: " + width;
         //super.toString();
 
     }
 
 
+    @Override
+    public double calculateArea() {
+        return length * width;
+    }
+
+    @Override
+    public double calculatePerimeter() {
+        return length + width;
+    }
 }
