@@ -6,7 +6,7 @@ public class Main {
 
         Student student = new Student("Andrei",9);
         Trainer trainer = new Trainer("Marius",8.5F);
-        Person person = new Person("Alex");
+        Person person = new Student("Alex",34);
 
         trainer.growRating();
 

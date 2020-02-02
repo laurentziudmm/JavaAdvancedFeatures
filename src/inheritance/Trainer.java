@@ -27,5 +27,10 @@ public class Trainer extends  Person {
         return "Trainer -> " + super.toString() +  " Rating: " + rating;
     }
 
+    @Override
+    public void eat() {
+        System.out.println("Trainer is eating fast..");
+    }
+
 
 }

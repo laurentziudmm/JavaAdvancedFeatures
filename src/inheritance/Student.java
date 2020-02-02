@@ -21,4 +21,9 @@ public class Student extends Person{
     public String toString () {
         return "Student ->  " + super.toString() + " Grade: " + grade;
     }
+
+    @Override
+    public void eat() {
+        System.out.println("Student is Eating pancakes");
+    }
 }

@@ -1,6 +1,6 @@
 package inheritance;
 
-public class Person {
+public abstract class Person {
 
     private String name;
 
@@ -28,5 +28,7 @@ public class Person {
     public String toString () {
         return "Name " + name;
     }
+
+    public abstract void  eat();
 }
 
