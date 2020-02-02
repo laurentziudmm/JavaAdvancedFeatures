@@ -5,7 +5,7 @@ public class Triangle extends Shape{
     private double base;
 
     public Triangle (double heigth , double base) {
-        this.heigth=heigth;
+        this.heigth = heigth;
         this.base = base;
     }
 
