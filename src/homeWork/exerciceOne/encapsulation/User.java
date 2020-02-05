@@ -1,4 +1,4 @@
-package homeWork.exerciceOne;
+package homeWork.exerciceOne.encapsulation;
 
 public class User {
 
