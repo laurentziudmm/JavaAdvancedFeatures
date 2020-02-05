@@ -35,7 +35,7 @@ public class Dog extends Animal {
 
     @Override
     public String toString() {
-        return " Age: " + getAge() + " NumberOfLegs: " + getNumberOfLegs() + " vegetarian " + isVegetarian() + " color " + color;
+        return "Name " + getName() + " Age: " + getAge() + " NumberOfLegs: " + getNumberOfLegs() + " vegetarian " + isVegetarian() + " color " + color;
     }
 
 }

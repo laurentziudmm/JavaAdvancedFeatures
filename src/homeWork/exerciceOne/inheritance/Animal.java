@@ -49,7 +49,7 @@ public abstract class Animal {
     @Override
     public String toString () {
 
-        return " Age: " + age + " NumberOfLegs: " + numberOfLegs + " Vegetarian " + vegetarian;
+        return "Name " + name + " Age: " + age + " NumberOfLegs: " + numberOfLegs + " Vegetarian " + vegetarian;
     }
 
     public abstract void dance();
