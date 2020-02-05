@@ -1,6 +1,6 @@
 package homeWork.exerciceOne.inheritance;
 
-public class Animal {
+public abstract class Animal {
     private  String name;
     private int age ;
     private int numberOfLegs;
@@ -51,4 +51,7 @@ public class Animal {
 
         return " Age: " + age + " NumberOfLegs: " + numberOfLegs + " Vegetarian " + vegetarian;
     }
+
+    public abstract void dance();
+
 }

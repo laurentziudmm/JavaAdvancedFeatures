@@ -38,7 +38,9 @@ public class ExerciceOne {
      * 	    In this implementation call the parent implementation.
      *
      * 	•	Instantiate 2 objects Animal and Dog and assign them to Animal variables.
+     *
      * 	•	Call toString() method for both objects and print the result. What is displayed? Why?
+     *
      * 	•	In the Main class create a method that receives an Animal object and print the details of that object.
      * 	•	Call the method by passing an animal object
      * 	•	Call the method by passing a dog object What is displayed? Why?
