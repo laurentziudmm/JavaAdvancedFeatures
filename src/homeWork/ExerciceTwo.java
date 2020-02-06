@@ -25,7 +25,7 @@ public class ExerciceTwo {
      * - metoda void adauga(int) care adaugă un element în mulţime;
      *
      * în cazul în care elementul deja există, mulţimea rămâne nemodificată;
-     * în cazul în carevectorul date este plin, se va afişa un mesaj de eroare;
+     * în cazul în care vectorul date este plin, se va afişa un mesaj de eroare;
      * -metoda void extrage(int) care extrage un element din mulţime;
      *
      * în cazul în care mulţimea nu conţine elementul, ea rămâne neschimbată;
@@ -38,7 +38,9 @@ public class ExerciceTwo {
      *
      * 2.Creaza o clasa abstracta Vehicle care are urmatorii membrii private:
      * -Int speed: viteza cu care se deplaseaza vehiculul
-     * -Int gear: treapta de vitezaClasa are urmatoarele metode:
+     * -Int gear: treapta de viteza
+     *
+     * Clasa are urmatoarele metode:
      * -Void changeGear(int newGear):
      * metoda ce seteaza membrul privat gear cuparametrul primit  ce reprezinta noua treapta de viteza a vehiculului-Void speedUp(int increment):
      * metoda ce aduca parametrul primit de metoda la viteza curenta a vehiculului-Void applyBrakes(int decrement):
