@@ -10,23 +10,29 @@ public class ExerciceTwo {
      * -int dim – dimensiunea vectorului date;
      * totodată reprezintă numărul maxim de elemente din mulţime;
      * -int n – numărul curent de elemente din mulţime;
+     *
      * în orice moment de timp, elementele mulţimii vor fi primele n elemente din vectorul date.
+     *
      * Pe parcursul existenţei mulţimii, numărul n şi elementele din date se pot modifica,
      * dar câmpul dim rămâne neschimbat.
+     *
      * Membrii publici:
      * - constructorul fara parametri care iniţializează câmpurile private ale mulţimii;
      * dimensiunea maximă a mulţimii va fi o valoare oarecare prestabilită.
      * Sa zicem valoarea 10;
+     *
      * -constructorul cu un parametru pentru câmpul dim, reprezentând dimensiunea maximă a mulţimii;
      * - metoda void adauga(int) care adaugă un element în mulţime;
+     *
      * în cazul în care elementul deja există, mulţimea rămâne nemodificată;
      * în cazul în carevectorul date este plin, se va afişa un mesaj de eroare;
      * -metoda void extrage(int) care extrage un element din mulţime;
+     *
      * în cazul în care mulţimea nu conţine elementul, ea rămâne neschimbată;
      * -metoda void afisare() care afişează mulţimea.
      * Folositi urmatoarea secventa de cod pentru a testa(se va scrie in metoda statica main(...)):
-     * Multime m = new Multime(10);m.adauga(4);
-     * m.adauga(3);  m.afisare();  m.extrage(4);
+     * Multime m = new Multime(10);
+     * m.adauga(4);m.adauga(3);  m.afisare();  m.extrage(4);
      * m.extrage(4);  m.afisare();  m.adauga(9);
      * m.adauga(2);  m.adauga(2);  m.afisare();
      *
