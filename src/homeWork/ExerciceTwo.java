@@ -20,6 +20,8 @@ public class ExerciceTwo {
      * Pe parcursul existenţei mulţimii, numărul n şi elementele din date se pot modifica,
      * dar câmpul dim rămâne neschimbat.
      *
+     *
+     *
      * Membrii publici:
      *
      * - constructorul fara parametri care iniţializează câmpurile private ale mulţimii;

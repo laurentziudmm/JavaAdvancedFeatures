@@ -10,19 +10,22 @@ public class Multime {
         this.date = date;
     }
 
+    public int getN() {
+        return n;
+    }
 
-    public void adauga(int dim) {
+    public void adauga(int n) {
         this.dim = this.dim + n;
 
     }
 
-    public void extrage(int dim) {
+    public void extrage(int n) {
         this.dim = this.dim - n;
     }
 
 
     public void afisare() {
-        System.out.println("Ati adaugat : " + n);
+        System.out.println("Aveti : " + date);
     }
 
 }
