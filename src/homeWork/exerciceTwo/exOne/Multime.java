@@ -6,12 +6,11 @@ public class Multime {
     private int dim;
     private int n;
 
-    public Multime(int[] date) {
-        this.date = date;
-    }
 
-    public int getN() {
-        return n;
+    public Multime(int dim) {
+        this.dim = dim;
+        this.date = new int[dim];
+        this.n = 0;
     }
 
     public void adauga(int n) {
@@ -25,7 +24,7 @@ public class Multime {
 
 
     public void afisare() {
-        System.out.println("Aveti : " + date);
+        System.out.println("Aveti : " + dim);
     }
 
 }
