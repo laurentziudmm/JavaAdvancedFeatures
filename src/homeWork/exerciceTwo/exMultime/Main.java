@@ -26,5 +26,8 @@ public class Main {
         m.adauga(2);
         m.afisare();
 
+
+
+
     }
 }
