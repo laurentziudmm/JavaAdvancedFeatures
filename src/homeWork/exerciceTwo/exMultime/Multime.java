@@ -15,23 +15,33 @@ public class Multime {
     }
 
     public void adauga(int n) {
-        date[nr++] = n;
-    }
 
+        int[] newArray = new int[date.length + 1];
 
-    public void extrage(int n) {
-        for (int p = 0; p < date.length - 1; p++) {
-            if (n == date[p]) {
-                date[p] = date[p + 1];
-                n = date[p];
+        for(int i = 0; i < date.length;i++) {
+            if (date[i] != n && date[i] <= dim) {
+                newArray[i] = date[i];
             }
         }
+        newArray[date.length-1] = n;
+        date = newArray;
+    }
 
+    public void extrage(int n) {
+        for (int i = 0; i < date.length - 1; i++) {
+            if (n == date[i]) {
+                date[i] = date[i + 1];
+                n = date[i];
+            }
+        }
     }
 
     public void afisare() {
         for (int i = 0; i < date.length; i++) {
-            System.out.print(" " + date[i]);
+            if (date[i] != 0) {
+                System.out.print(" " + date[i]);
+            }
         }
+
     }
 }
