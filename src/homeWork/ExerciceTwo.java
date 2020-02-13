@@ -11,6 +11,7 @@ public class ExerciceTwo {
      * Se va initializa în constructor;
      *
      * -int dim – dimensiunea vectorului date;
+     *
      * totodată reprezintă numărul maxim de elemente din mulţime;
      *
      * -int n – numărul curent de elemente din mulţime;
@@ -29,10 +30,13 @@ public class ExerciceTwo {
      * Sa zicem valoarea 10;
      *
      * -constructorul cu un parametru pentru câmpul dim, reprezentând dimensiunea maximă a mulţimii;
+     *
      * - metoda void adauga(int) care adaugă un element în mulţime;
      *
      * în cazul în care elementul deja există, mulţimea rămâne nemodificată;
+     *
      * în cazul în care vectorul date este plin, se va afişa un mesaj de eroare;
+     *
      *
      * -metoda void extrage(int) care extrage un element din mulţime;
      *
