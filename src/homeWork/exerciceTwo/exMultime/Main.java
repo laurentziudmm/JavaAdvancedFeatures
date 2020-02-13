@@ -1,4 +1,4 @@
-package homeWork.exerciceTwo.exOne;
+package homeWork.exerciceTwo.exMultime;
 
 public class Main {
     public static void main(String[] args) {
