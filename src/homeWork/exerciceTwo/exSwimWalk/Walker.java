@@ -1,4 +1,4 @@
-package homeWork.exerciceTwo.exThree;
+package homeWork.exerciceTwo.exSwimWalk;
 
 public class Walker implements Walk,Breath {
     @Override

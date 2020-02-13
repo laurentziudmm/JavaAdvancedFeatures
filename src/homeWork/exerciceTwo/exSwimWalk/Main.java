@@ -1,4 +1,4 @@
-package homeWork.exerciceTwo.exThree;
+package homeWork.exerciceTwo.exSwimWalk;
 
 public class Main {
     public static void main(String[] args) {
