@@ -14,42 +14,14 @@ public class Multime {
     }
 
     public void adauga(int n) {
-        //vector initial
-        int[] oldArray = new int[dim];
 
-        //valoare noua
-        int newValue = n;
-
-        //construim noul vector
-        int[] newArray = date;
-
-        //copiem valorile existent
-        for (int i = 0; i < oldArray.length; i++) {
-
-
-            //adaugam valoarea noua
-            newArray[newArray.length - n] = newValue;
-        }
-        //copiem referinta noului vector
-        //vechiul vector va fi sters de Garbage Collector
-        this.date = newArray;
+        date[n++] = n;
     }
 
+
     public void extrage(int n) {
-        //vector initial
-        int[] oldArray = new int[dim];
+        date[n--] = n;
 
-        //valoare noua
-        int newValue = n;
-
-        //construim noul vector
-        int[] newArray = date;
-
-        for (int i = newValue; i < oldArray.length; i++) {
-            //adaugam valoarea noua
-            newArray[newArray.length - n] = newValue;
-        }
-        this.date = newArray;
     }
 
 

@@ -14,8 +14,6 @@ public class Main {
         m.adauga(5);
         m.adauga(6);
         m.afisare();
-
-
         System.out.println();
         m.extrage(4);
         m.extrage(3);
