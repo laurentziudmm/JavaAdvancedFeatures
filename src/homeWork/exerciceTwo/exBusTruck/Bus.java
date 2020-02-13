@@ -1,4 +1,4 @@
-package homeWork.exerciceTwo.exTwo;
+package homeWork.exerciceTwo.exBusTruck;
 
 public class Bus extends Vehicle {
 

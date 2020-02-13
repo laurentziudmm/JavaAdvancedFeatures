@@ -1,10 +1,10 @@
-package homeWork.exerciceTwo.exTwo;
+package homeWork.exerciceTwo.exBusTruck;
 
 public class Main {
 
     public static void main(String[] args) {
 
-        //exTwo Solved
+        //exBusTruck Solved
 
         Truck truck = new Truck();
         truck.changeGear(2);

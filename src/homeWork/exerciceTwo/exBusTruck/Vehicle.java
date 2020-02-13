@@ -1,4 +1,4 @@
-package homeWork.exerciceTwo.exTwo;
+package homeWork.exerciceTwo.exBusTruck;
 
 public abstract class Vehicle {
     private int speed;
