@@ -48,15 +48,22 @@ public class Main {
         m.adauga(2);
         m.adauga(4);
         m.adauga(5);
+        m.afisare();
+        System.out.println();
+        m.extrage(7);
+        m.extrage(1);
+        m.extrage(1);
+        m.extrage(1);
+        m.afisare();
+        System.out.println();
         m.adauga(6);
-        m.adauga(8);
-        m.adauga(9);
-        m.adauga(10);
+        m.adauga(7);
+        m.adauga(6);
+        m.adauga(7);
+        m.adauga(2);
+        m.adauga(3);
         m.afisare();
-        m.adauga(11);
-        m.adauga(12);
-        m.adauga(13);
-        m.afisare();
+
 
 
 
