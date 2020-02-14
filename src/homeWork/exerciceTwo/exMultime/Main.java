@@ -52,6 +52,7 @@ public class Main {
         m.adauga(8);
         m.adauga(9);
         m.adauga(10);
+        m.afisare();
         m.adauga(11);
         m.adauga(12);
         m.adauga(13);

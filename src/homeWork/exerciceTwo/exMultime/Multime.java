@@ -19,7 +19,7 @@ public class Multime {
         int[] newArray = new int[date.length + 1];
 
         for(int i = 0; i < date.length;i++) {
-            if (date[i] != n && date[i] <= dim) {
+            if (date[i] != n && date[i] < dim) {
                 newArray[i] = date[i];
             }
         }
