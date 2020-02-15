@@ -14,34 +14,39 @@ public class Multime {
         this.n = 0;
     }
 
-    public void adauga(int n) {
-
-        int[] newArray = new int[date.length + 1];
-
-        for(int i = 0; i < date.length;i++) {
-            if (date[i] != n && date[i] < dim) {
-                newArray[i] = date[i];
+    public void adauga(int number) {
+        boolean found = false;
+        for (int i = 0; i < n; i++) {
+            if (date[i] == number) {
+                System.out.println("Number " + date[i] + " already exists!");
+                found = true;
             }
         }
-        newArray[date.length-1] = n;
-        date = newArray;
+        if (found == false) {
+            date[n] = number;
+            n++;
+        }
+        if (n >= date.length) {
+            System.out.println("Array full!!!");
+        }
     }
 
-    public void extrage(int n) {
-        for (int i = 0; i < date.length - 1; i++) {
-            if (n == date[i]) {
+
+    public void extrage(int number) {
+        for (int i = 0; i < n; i++) {
+            if (date[i] == number) {
                 date[i] = date[i + 1];
-                n = date[i];
+                n--;
             }
         }
     }
+
 
     public void afisare() {
-        for (int i = 0; i < date.length; i++) {
-            if (date[i] != 0) {
-                System.out.print(" " + date[i]);
-            }
+        for (int i = 0; i < n; i++) {
+            System.out.print(date[i] + " ");
         }
-
+        System.out.println();
     }
+
 }
